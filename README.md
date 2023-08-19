@@ -1,7 +1,8 @@
 # Project: Landing Page | Odin Foundations Course
 
-This is a practice project after following lessons on flexbox <br>
-Link to [The Odin Project Foundations Course](https://www.theodinproject.com/paths/foundations/courses/foundations) <br>
+View as webpage: [https://aminhnh.github.io/flexbox-landing-page/](https://aminhnh.github.io/flexbox-landing-page/)
+
+This is a practice project after following lessons on flexbox in [The Odin Project Foundations Course](https://www.theodinproject.com/paths/foundations/courses/foundations) <br>
 Link to the [project assignment](https://www.theodinproject.com/lessons/foundations-landing-page#viewing-your-project-on-the-web) <br><br>
 
 Image credits: <br>
