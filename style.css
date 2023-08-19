@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+.page-1 {
+  display: flex;
+  flex-direction: column;
+  padding: 0 10rem;
+  height: 100vh;
+}
+.page-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10rem;
+  height: 70vh;
+  gap: 2rem;
+}
+.page-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  height: 70vh;
+  padding: 0 20rem;
+  background-color: #e5e7eb;
+}
+.page-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10rem;
+  height: 50vh;
+}
+.bg-dark {
+  color: white;
+  background-color: #1f2937;
+}
+/* PAGE 1 */
+.header {
+  padding: 1.2rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header .logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: 600;
+}
+.nav ul {
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+}
+.nav ul {
+  list-style: none;
+}
+li a,
+.hero-secondary {
+  font-size: 18px;
+  color: #f9faf8;
+  text-decoration: none;
+}
+.hero-main {
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+.hero-text div {
+  margin: 1rem 0;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+.hero-image img {
+  width: 500px;
+  height: 300px;
+  object-fit: cover;
+}
+
+/* PAGE 2 */
+.info-header {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  align-self: center;
+}
+.info-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.info-card {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  max-width: 200px;
+}
+.info-card img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 1rem;
+}
+
+/* PAGE 3 */
+.quote {
+  font-size: 36px;
+  font-weight: 200;
+  font-style: italic;
+  text-align: justify;
+}
+.qoute-source {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* PAGE 4 */
+.modal {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #3882f6;
+  color: white;
+  width: 100%;
+  height: 10rem;
+  border-radius: 1rem;
+}
+.cta .title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 3rem;
+  font-size: 14px;
+}
+
+/* OTHER */
+.btn-primary {
+  background-color: #3882f6;
+  color: white;
+  padding: 0.5rem 1.8rem;
+  border: 0;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 20px;
+}
+.btn-secondary {
+  background-color: #3882f6;
+  color: white;
+  padding: 0.5rem 1.8rem;
+  border: 3px solid white;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 20px;
+}
